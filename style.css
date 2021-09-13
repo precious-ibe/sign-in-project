@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+html{
+    background-color: rgba(15, 187, 240, 0.932);
+    color: white;
+}
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.first-child{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+}
+ul li{
+    display: inline-block;
+    justify-content: space-between;
+    height: auto;
+    padding: 10px;
+}
+.second-child{
+    display: flex;
+    width: 60%;
+    margin: 0px auto;
+    /*justify-content: center;*/
+    
+}
+p{
+    width: 50%;
+}
+.button2{
+    background-color: rgb(13, 161, 13);
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+}
+.formcard{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    width: 200px;
+    display: inline-block;
+}
+h2{
+    text-align: center;
+}
+.button3{
+    background-color: rgb(44, 44, 184);
+    padding: 10px 40px 10px 40px;
+    border-radius: 20px;
+}
+.third-child{
+    display: flex;
+    background: linear-gradient(90deg #FFFFFF, #0000FF);
+}
