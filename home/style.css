@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.button{
+    display: flex;
+    width: 200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.first-child{
+    display: flex; 
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+ul li{
+    display: inline-block;
+    justify-content: space-between;
+    height: auto;
+    padding: 20px;
+    align-items: center;
+}
+.second-child{
+    width: 60%;
+    margin: 0px auto;
+    text-align: center;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.third-child{
+    display: flex;
+    flex-direction: row;}
+.subhead{
+    display: flex;
+     flex-direction: row;
+    color: blue;
+}
+.music{
+    background-color: white;
+    margin: 100px;
+}
+.musicimg{
+    width: 200px;
+    height: 200px;
+}
+.relationship{
+    background-color: white;
+}
+.relationshipimg{
+    width: 200px;
+    height: 200px;
+}
+.marriage{
+    background-color: white;
+}
+.marriageimg{
+    width: 200px;
+    height: 200px;
+}
+.spiritual{
+    background-color: white;
+}
+.spiritualimg{
+    width: 200px;
+    height: 200px;
+}
+.footer{
+    background-color: blue;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 1400px;
+    color: white;
+}
